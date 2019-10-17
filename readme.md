@@ -14,3 +14,8 @@ In the data exploration, I looked at four main variables: duration, start time, 
 ## Key Insights for Presentation
 
 For the presentation, I focused on the three variables, duration time in minutes, month of ride start time, and user type to explain the trends and relationships in the 2018 data. I first looked at the distribution of each variable on its own, than plotted them against each other to see relationships between two variables at a time. Finally, I combined all three variables in one plot. Because two of the variables I looked at were categorical and the third was numerical, I used bar charts and Facet grids of boxplots or histograms to visualize the data. 
+
+## Running the Slideshow
+
+To remove code cells from slides, enter the following code into the command line:
+`jupyter nbconvert "exploration_fordgobikes2.ipynb" --to slides --post serve --template output_toggle`
